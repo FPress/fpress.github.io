@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AASsB,qCAAqC;AACrC,gDAAgD;AAChD,8CAA8C;AAC9C,QAAQ;ACV9B,QAAS,GACP,gBAAgB,EDAJ,OAAO,ECEnB,KAAK,EAAE,KAAK,EACZ,WAAW,EAAE,IAAI;AAEjB,yBAAiC,GANnC,QAAS,GAOH,WAAW,EAAE,IAAI;AAEtB,0BAAiC,GATlC,QAAS,GAUH,WAAW,EAAE,IAAI",
+"sources": ["../sass/_variables.scss","../sass/sidebar.scss"],
+"names": [],
+"file": "sidebar.css"
+}

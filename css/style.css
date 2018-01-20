@@ -1,0 +1,89 @@
+/* Telefones em landscape e abaixo */
+/* Telefone em landscape a tablet em portrait */
+/* tablet em portrait a landscape e desktop */
+/* // */
+/* Telefones em landscape e abaixo */
+/* Telefone em landscape a tablet em portrait */
+/* tablet em portrait a landscape e desktop */
+/* // */
+.post-feed-container { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
+
+.post { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-sizing: border-box; box-sizing: border-box; }
+@media (max-width: 767px) { .post { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-right: 15px; margin-left: 15px; } }
+
+.post-featured-image { -webkit-box-flex: 3; -ms-flex: 3; flex: 3; height: 200px; background-color: #7F1B22; -webkit-transition: -webkit-box-shadow 0.2s, -webkit-transform 0.1s; transition: -webkit-box-shadow 0.2s, -webkit-transform 0.1s; transition: box-shadow 0.2s, transform 0.1s; transition: box-shadow 0.2s, transform 0.1s, -webkit-box-shadow 0.2s, -webkit-transform 0.1s; }
+.post-featured-image:hover { -webkit-transform: scale(1.005); transform: scale(1.005); -webkit-box-shadow: 0px 0px 40px -6px rgba(0, 0, 0, 0.2); box-shadow: 0px 0px 40px -6px rgba(0, 0, 0, 0.2); }
+@media (max-width: 767px) { .post-featured-image { -webkit-box-ordinal-group: 3; -ms-flex-order: 2; order: 2; -webkit-box-flex: 0; -ms-flex: none; flex: none; width: 100%; height: 200px; } }
+
+.post-content { -webkit-box-flex: 4; -ms-flex: 4; flex: 4; color: #111111; }
+.post-content .categorias { margin-top: 0; color: #808080; }
+.post-content .data { margin-bottom: 0; }
+@media (min-width: 480px) { .post-content { margin-left: 15px; } }
+
+.post-featured-image { background-repeat: no-repeat; background-size: cover; background-position: center; }
+
+/* Telefones em landscape e abaixo */
+/* Telefone em landscape a tablet em portrait */
+/* tablet em portrait a landscape e desktop */
+/* // */
+.header-container { border-top: 5px solid #b3000c; position: relative; }
+
+.header { position: relative; height: auto; width: 400px; max-width: none; margin: 0 auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background-color: white; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.header-description { position: relative; margin: 0; font-family: 'Source Sans Pro', sans-serif; }
+
+.navbar { -webkit-box-sizing: border-box; box-sizing: border-box; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; background-color: white; }
+.navbar ul { padding: 2px 0; margin: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.navbar ul li { list-style: none; font-size: 20px; color: #555; margin: 2px 5px; background-color: white; }
+.navbar ul li a { -webkit-box-sizing: border-box; box-sizing: border-box; display: block; padding: 5px 5px 10px 20px; -webkit-transition: 0.2s; transition: 0.2s; height: 100%; }
+.navbar ul li a:hover, .navbar ul li a:active { color: #b3000c; border-left: 5px solid #b3000c; }
+.navbar ul li.current-menu-item { border-left: 5px solid #b3000c; }
+
+@media (min-width: 900px) { .navbar { padding-right: 20px; padding-left: 20px; } }
+@media (min-width: 900px) and (max-width: 767px) { .navbar { padding-right: 10px; padding-left: 10px; } }
+@media (min-width: 900px) { .navbar .brand { display: inline-block; }
+  .navbar ul { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+  .navbar ul li { text-align: center; }
+  .navbar ul li a { padding: 5px 10px; }
+  .navbar ul li a:hover, .navbar ul li a:active { border: none; -webkit-box-shadow: 0 2px 0 #b3000c; box-shadow: 0 2px 0 #b3000c; background-color: none; }
+  .navbar ul li.current-menu-item { border: none; -webkit-box-shadow: 0 2px 0 #b3000c; box-shadow: 0 2px 0 #b3000c; background-color: none; } }
+.brand { margin: 10px 0; letter-spacing: 5px; text-transform: uppercase; text-align: center; }
+
+.brand-description { color: #555; margin: 0; font-size: 14px; }
+
+body, html { margin: 0; padding: 0; color: #111111; background-color: #F1F1F1; font-family: 'Source Sans Pro', sans-serif; }
+
+h1 { font-size: 24pt; }
+
+h2 { font-size: 18pt; }
+
+h3 { font-size: 14pt; color: #7F1B22; margin: 0; }
+
+a, a:hover { text-decoration: none; color: inherit; }
+
+.section-a { background-color: white; margin: 30px 0; }
+
+.section-b { display: -webkit-box; display: -ms-flexbox; display: flex; max-width: none; margin: 0 auto 0 auto; padding-right: 15px; padding-left: 15px; font-family: 'Source Sans Pro', sans-serif; }
+@media (max-width: 767px) { .section-b { padding-right: 3px; padding-left: 3px; } }
+
+.large-shadow { -webkit-box-shadow: 0px 0px 40px -6px rgba(0, 0, 0, 0.26); box-shadow: 0px 0px 40px -6px rgba(0, 0, 0, 0.26); }
+
+hr { background-color: #d8d8d8; height: 1px; border: 0; margin-top: 15px; margin-bottom: 15px; }
+
+.data { font-weight: 300; font-size: 10pt; text-transform: uppercase; }
+
+.categorias { font-family: 'Calibri', sans-serif; font-weight: bold; font-size: 13px; text-transform: uppercase; }
+
+@media (max-width: 767px) { .desktop-only { display: none; } }
+
+@media (min-width: 768px) { .mobile-only { display: none; } }
+
+footer { -webkit-box-sizing: border-box; box-sizing: border-box; margin-top: 200px; width: 100%; padding: 15px; font-family: 'Source Sans Pro', sans-serif; background-color: #7F1B22; color: #d8d8d8; -webkit-box-shadow: inset 0px 6px 20px 0px rgba(0, 0, 0, 0.26), inset 0 0 0px 0px; box-shadow: inset 0px 6px 20px 0px rgba(0, 0, 0, 0.26), inset 0 0 0px 0px; }
+footer a, footer a:hover { color: inherit; }
+
+/* Telefones em landscape e abaixo */
+/* Telefone em landscape a tablet em portrait */
+/* tablet em portrait a landscape e desktop */
+/* Desktop grande */
+
+/*# sourceMappingURL=style.css.map */
