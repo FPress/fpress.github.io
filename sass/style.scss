@@ -38,20 +38,27 @@ pre {
 
 .section-a {
 	background-color: white;
-	margin: 30px 0;
+	margin: 10px 0;
 }
 
 .section-b {
-	max-width: $max-width;
 	margin: 0 auto 0 auto;
-	@include side-padding;
 
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 
 	.container {
+		margin: 0 auto 0 auto;
 		padding: 30px 0;
 		background-color: white;
+		font-size: 18px;
+		line-height: 1.5em;
 		@include side-padding;
+		max-width: $max-width;
+	}
+	iframe {
+		margin: 0 auto 0 auto;
+		height: calc(100vh - 154px);
+		width: 99%;
 	}
 }
 
@@ -94,7 +101,6 @@ hr {
 
 footer {
 	box-sizing: border-box;
-	margin-top: 200px;
 	width: 100%;
 	padding: 15px;
 	font-family: 'Source Sans Pro', sans-serif;
