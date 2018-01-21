@@ -31,19 +31,30 @@ a {
 		@extend a;
 	}
 }
+pre {
+    font-family: inherit;
+    white-space: pre-wrap;
+}
 
 .section-a {
 	background-color: white;
 	margin: 30px 0;
 }
+
 .section-b {
-	display: flex;
 	max-width: $max-width;
 	margin: 0 auto 0 auto;
 	@include side-padding;
 
 	font-family: 'Source Sans Pro', sans-serif;
+
+	.container {
+		padding: 30px 0;
+		background-color: white;
+		@include side-padding;
+	}
 }
+
 
 .large-shadow {
 	box-shadow: 0px 0px 40px -6px rgba(0,0,0,0.26);

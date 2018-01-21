@@ -10,37 +10,38 @@
 		<link rel="stylesheet" href="css/style.css">
 
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 	</head>
 	<body>
 
 		<div class="header-container">
 			<div class="header large-shadow">
 				<span class="brand">
-
+				<a href=".">
 					<img src="img/fpress-logo.svg" height="35px">
 					<p class="brand-description">Documentação</p>
-
+				</a>
 				</span>
 			</div>
 		</div>
 
 
 		<div class="section-a large-shadow">
-			<div class="sidebar desktop-only">
-				LINKS
-			</div>
+			<nav class="navbar">
+				<a href="?pg=teste">TESTE</a>
+
+			</nav>
 		</div>
+
+
 		<div class="section-b">
+			<div class="container">
 
-			<script>
+				<center>
+					Carregando...
+				</center>
 
-				$(document).ready(function(){/*Code goes here*/
-
-					$('.section-b').load("_conteudo/teste.html");
-
-				});
-			</script>
+			</div>
 		</div>
 
 
@@ -49,5 +50,7 @@
 			<center><p>Work in progress by <a href="http://ollieestuff.com/">Oliver Leite</a> | jan-2018</p></center>
 		</footer>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/ajax.js"></script>
 	</body>
 </html>

@@ -28,7 +28,7 @@
 /* // */
 .header-container { border-top: 5px solid #b3000c; position: relative; }
 
-.header { position: relative; height: auto; width: 400px; max-width: none; margin: 0 auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background-color: white; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.header { position: relative; height: auto; width: 400px; max-width: 1200px; margin: 0 auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background-color: white; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .header-description { position: relative; margin: 0; font-family: 'Source Sans Pro', sans-serif; }
 
@@ -61,10 +61,14 @@ h3 { font-size: 14pt; color: #7F1B22; margin: 0; }
 
 a, a:hover { text-decoration: none; color: inherit; }
 
+pre { font-family: inherit; white-space: pre-wrap; }
+
 .section-a { background-color: white; margin: 30px 0; }
 
-.section-b { display: -webkit-box; display: -ms-flexbox; display: flex; max-width: none; margin: 0 auto 0 auto; padding-right: 15px; padding-left: 15px; font-family: 'Source Sans Pro', sans-serif; }
+.section-b { max-width: 1200px; margin: 0 auto 0 auto; padding-right: 15px; padding-left: 15px; font-family: 'Source Sans Pro', sans-serif; }
 @media (max-width: 767px) { .section-b { padding-right: 3px; padding-left: 3px; } }
+.section-b .container { padding: 30px 0; background-color: white; padding-right: 15px; padding-left: 15px; }
+@media (max-width: 767px) { .section-b .container { padding-right: 3px; padding-left: 3px; } }
 
 .large-shadow { -webkit-box-shadow: 0px 0px 40px -6px rgba(0, 0, 0, 0.26); box-shadow: 0px 0px 40px -6px rgba(0, 0, 0, 0.26); }
 
@@ -85,5 +89,4 @@ footer a, footer a:hover { color: inherit; }
 /* Telefone em landscape a tablet em portrait */
 /* tablet em portrait a landscape e desktop */
 /* Desktop grande */
-
 /*# sourceMappingURL=style.css.map */

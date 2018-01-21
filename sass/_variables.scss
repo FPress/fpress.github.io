@@ -15,7 +15,8 @@ $break-min-lg: 1200px;
 
 
 //
-$max-width: none;
+$max-width: 1200px;
+
 @mixin side-padding($padding: 15px, $padding-mobile: 3px) {
   padding-right: $padding;
   padding-left: $padding;
@@ -24,4 +25,4 @@ $max-width: none;
 	  padding-left: $padding-mobile;
   }
 }
-$min-height: 10px; //Featured posts
+$min-height: 50px; //Featured posts
