@@ -1,5 +1,5 @@
 //Colors
-$primary-color: #7F1B22; //cor primária
+$primary-color: #931b22; //cor primária
 $semi-black: #111111; //main font color
 $semi-white1: #F1F1F1; //section A bg
 $semi-white2: #d8d8d8; //ft categorias / hr
@@ -15,7 +15,7 @@ $break-min-lg: 1200px;
 
 
 //
-$max-width: 1200px;
+$max-width: 800px;
 
 @mixin side-padding($padding: 15px, $padding-mobile: 3px) {
   padding-right: $padding;

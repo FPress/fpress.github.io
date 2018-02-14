@@ -1,0 +1,19 @@
+
+.btn-container {
+   box-sizing: border-box;
+   width: 100%;
+   text-align: center;
+   margin: 50px 0;
+}
+.btn {
+   display: inline-block;
+   box-sizing: border-box;
+   padding: 20px;
+   border: 2px dotted $primary-color;
+   color: $primary-color;
+
+   &:hover {
+      color: $semi-white1;
+      background-color: $primary-color;
+   }
+}

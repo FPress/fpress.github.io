@@ -2,6 +2,7 @@
 
 @import 'home-posts';
 @import 'navbar';
+@import 'content';
 
 body,
 html {
@@ -28,7 +29,8 @@ a {
 	text-decoration: none;
 	color: inherit;
 	&:hover {
-		@extend a;
+		text-decoration: none;
+		color: $primary-color;
 	}
 }
 pre {

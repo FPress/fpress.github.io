@@ -20,8 +20,8 @@ $(window).on('hashchange load',function(){
          $(elemento).load(path + "links.html");
          break;
 
-      case "#proposta":
-         $('html').load(path + "proposta.html");
+      case "#projeto":
+         $(elemento).load(path + "projeto.html");
          break;
 
       default:
